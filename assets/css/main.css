@@ -804,6 +804,32 @@ h6 {
     justify-content: center;
   }
 }
+/* Social Icon Styling */
+.footer-16 .social-icons {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-16 .social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: color-mix(in srgb, var(--default-color), transparent 90%);
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.footer-16 .social-icon:hover {
+  background-color: var(--accent-color);
+  color: #fff;
+  transform: translateY(-3px) scale(1.1);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
 
 /*--------------------------------------------------------------
 # Preloader

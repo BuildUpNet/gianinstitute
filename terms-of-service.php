@@ -37,10 +37,9 @@
 
 <body class="terms-of-service-page">
 
-  <header id="header" class="header d-flex align-items-center sticky-top">
+   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-
-       <a href="index.html" class="logo d-flex align-items-center">
+      <a href="index.php" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <img src="assets/img/gian.png" alt="" />
         <i class="bi bi-buildings"></i>
@@ -49,39 +48,46 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li class="dropdown"><a href="about.html"><span>About</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li><a href="index.php" class="active">Home</a></li>
+          <li class="dropdown">
+            <a href="about.php"><span>About</span>
+              <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="admissions.html">Admissions</a></li>
-              <li><a href="academics.html">Academics</a></li>
-              <li><a href="faculty-staff.html">Faculty &amp; Staff</a></li>
-              <li><a href="campus-facilities.html">Campus &amp; Facilities</a></li>
+              <li><a href="about.php">About Us</a></li>
+              <li><a href="admissions.php">Admissions</a></li>
             </ul>
           </li>
-
-          <li><a href="students-life.html">Students Life</a></li>
-        
-          <li class="dropdown"><a href="#"><span>More Pages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="news-details.html">News Details</a></li>
-              <li><a href="event-details.html">Event Details</a></li>
-              <li><a href="privacy.html">Privacy</a></li>
-              <li><a href="terms-of-service.html" class="active">Terms of Service</a></li>
-              
-              <li><a href="starter-page.html">Starter Page</a></li>
-            </ul>
-          </li>
-
+         <li><a href="privacy.php">Privacy</a></li>
+     <li><a href="terms-of-service.php">Terms of Service</a></li>
          
-          <li><a href="contact.html">Contact</a></li>
+
+          <!--<li class="dropdown">-->
+          <!--  <a href="#"><span>Dropdown</span>-->
+          <!--    <i class="bi bi-chevron-down toggle-dropdown"></i></a>-->
+          <!--  <ul>-->
+          <!--    <li><a href="#">Dropdown 1</a></li>-->
+          <!--    <li class="dropdown">-->
+          <!--      <a href="#"><span>Deep Dropdown</span>-->
+          <!--        <i class="bi bi-chevron-down toggle-dropdown"></i></a>-->
+          <!--      <ul>-->
+          <!--        <li><a href="#">Deep Dropdown 1</a></li>-->
+          <!--        <li><a href="#">Deep Dropdown 2</a></li>-->
+          <!--        <li><a href="#">Deep Dropdown 3</a></li>-->
+          <!--        <li><a href="#">Deep Dropdown 4</a></li>-->
+          <!--        <li><a href="#">Deep Dropdown 5</a></li>-->
+          <!--      </ul>-->
+          <!--    </li>-->
+          <!--    <li><a href="#">Dropdown 2</a></li>-->
+          <!--    <li><a href="#">Dropdown 3</a></li>-->
+          <!--    <li><a href="#">Dropdown 4</a></li>-->
+          <!--  </ul>-->
+          <!--</li>-->
+          <li><a href="contact.php">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-
     </div>
   </header>
-
   <main class="main">
 
     <!-- Page Title -->
@@ -104,7 +110,7 @@
       <nav class="breadcrumbs">
         <div class="container">
           <ol>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li class="current">Terms Of Service</li>
           </ol>
         </div>
@@ -242,7 +248,7 @@
             <div class="contact-content">
               <h4>Questions About Terms?</h4>
               <p>If you have any questions about these Terms, please contact us.</p>
-              <a href="#" class="contact-link">Contact Support</a>
+              <a href="contact.php" class="contact-link">Contact Support</a>
             </div>
           </div>
         </div>
@@ -253,145 +259,135 @@
   </main>
 
   <footer id="footer" class="footer-16 footer position-relative dark-background">
+  <div class="container">
+    <!-- Main Footer Top Section -->
+    <div class="footer-main">
+      <div class="row align-items-start">
+        <!-- Brand and Social Icons -->
+        <div class="col-lg-5">
+          <div class="brand-section">
+            <a href="index.php" class="logo d-flex align-items-center mb-4">
+              <span class="sitename">
+                <img src="assets/img/gian.png" alt="Gian Institute Logo" width="150px" />
+              </span>
+            </a>
+            <p class="brand-description">
+              Crafting exceptional digital experiences through thoughtful
+              design and innovative solutions that elevate your brand presence.
+            </p>
 
-    <div class="container">
-
-      <div class="footer-main">
-        <div class="row align-items-start">
-
-          <div class="col-lg-5">
-            <div class="brand-section">
-              <a href="index.html" class="logo d-flex align-items-center mb-4">
-                <span class="sitename">MySchool</span>
-              </a>
-              <p class="brand-description">Crafting exceptional digital experiences through thoughtful design and innovative solutions that elevate your brand presence.</p>
-
-              <div class="contact-info mt-5">
-                <div class="contact-item">
-                  <i class="bi bi-geo-alt"></i>
-                  <span>123 Creative Boulevard, Design District, NY 10012</span>
-                </div>
-                <div class="contact-item">
-                  <i class="bi bi-telephone"></i>
-                  <span>+1 (555) 987-6543</span>
-                </div>
-                <div class="contact-item">
-                  <i class="bi bi-envelope"></i>
-                  <span>hello@designstudio.com</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-7">
-            <div class="footer-nav-wrapper">
-              <div class="row">
-
-                <div class="col-6 col-lg-3">
-                  <div class="nav-column">
-                    <h6>Studio</h6>
-                    <nav class="footer-nav">
-                      <a href="#">Our Story</a>
-                      <a href="#">Design Process</a>
-                      <a href="#">Portfolio</a>
-                      <a href="#">Case Studies</a>
-                      <a href="#">Awards</a>
-                    </nav>
-                  </div>
-                </div>
-
-                <div class="col-6 col-lg-3">
-                  <div class="nav-column">
-                    <h6>Services</h6>
-                    <nav class="footer-nav">
-                      <a href="#">Brand Identity</a>
-                      <a href="#">Web Design</a>
-                      <a href="#">Mobile Apps</a>
-                      <a href="#">Digital Strategy</a>
-                      <a href="#">Consultation</a>
-                    </nav>
-                  </div>
-                </div>
-
-                <div class="col-6 col-lg-3">
-                  <div class="nav-column">
-                    <h6>Resources</h6>
-                    <nav class="footer-nav">
-                      <a href="#">Design Blog</a>
-                      <a href="#">Style Guide</a>
-                      <a href="#">Free Assets</a>
-                      <a href="#">Tutorials</a>
-                      <a href="#">Inspiration</a>
-                    </nav>
-                  </div>
-                </div>
-
-                <div class="col-6 col-lg-3">
-                  <div class="nav-column">
-                    <h6>Connect</h6>
-                    <nav class="footer-nav">
-                      <a href="#">Start Project</a>
-                      <a href="#">Schedule Call</a>
-                      <a href="#">Join Newsletter</a>
-                      <a href="#">Follow Updates</a>
-                      <a href="#">Partnership</a>
-                    </nav>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="footer-social">
-        <div class="row align-items-center">
-
-          <div class="col-lg-6">
-            <div class="newsletter-section">
-              <h5>Stay Inspired</h5>
-              <p>Subscribe to receive design insights and creative inspiration delivered monthly.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <div class="social-section">
-              <div class="social-links">
-                <a href="#" aria-label="Dribbble" class="social-link">
-                  <i class="bi bi-dribbble"></i>
-                  <span>Dribbble</span>
+            <!-- Social Media Icons -->
+            <div class="social-links mt-4">
+              <h6 class="text-light mb-3">Follow Us</h6>
+              <div class="d-flex gap-3 social-icons">
+                <a href="https://facebook.com" target="_blank" class="social-icon text-light fs-5" aria-label="Facebook">
+                  <i class="bi bi-facebook"></i>
                 </a>
-                <a href="#" aria-label="Behance" class="social-link">
-                  <i class="bi bi-behance"></i>
-                  <span>Behance</span>
+                <a href="https://twitter.com" target="_blank" class="social-icon text-light fs-5" aria-label="Twitter">
+                  <i class="bi bi-twitter-x"></i>
                 </a>
-                <a href="#" aria-label="Instagram" class="social-link">
+                <a href="https://instagram.com" target="_blank" class="social-icon text-light fs-5" aria-label="Instagram">
                   <i class="bi bi-instagram"></i>
-                  <span>Instagram</span>
                 </a>
-                <a href="#" aria-label="LinkedIn" class="social-link">
+                <a href="https://linkedin.com" target="_blank" class="social-icon text-light fs-5" aria-label="LinkedIn">
                   <i class="bi bi-linkedin"></i>
-                  <span>LinkedIn</span>
                 </a>
               </div>
             </div>
           </div>
+        </div>
 
+        <!-- Footer Navigation Columns -->
+        <div class="col-lg-7">
+          <div class="footer-nav-wrapper">
+            <div class="row">
+              <!-- Courses -->
+              <div class="col-6 col-lg-4">
+                <div class="nav-column">
+                  <h6>Courses</h6>
+                  <nav class="footer-nav">
+                    <a href="#">Fashion Design</a>
+                    <a href="#">Interior Design</a>
+                    <a href="#">Textile Design</a>
+                    <a href="#">Digital Marketing</a>
+                    <a href="#">Beauty</a>
+                  </nav>
+                </div>
+              </div>
+
+              <!-- Contact Info -->
+              <div class="col-6 col-lg-4">
+                <div class="nav-column">
+                  <h6>Connect</h6>
+                  <nav class="footer-nav d-flex flex-column gap-2">
+                    <a href="tel:+15559876543" class="d-flex align-items-center text-decoration-none text-light">
+                      <i class="bi bi-telephone me-2"></i> +1 (555) 987-6543
+                    </a>
+                    <a href="mailto:hello@designstudio.com" class="d-flex align-items-center text-decoration-none text-light">
+                      <i class="bi bi-envelope me-2"></i> hello@designstudio.com
+                    </a>
+                    <a href="https://goo.gl/maps/XyZabc123" target="_blank" class="d-flex align-items-start text-decoration-none text-light">
+                      <i class="bi bi-geo-alt me-2 mt-1"></i>
+                      <span>123 Creative Boulevard,<br>Design District, NY 10012</span>
+                    </a>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- /row -->
+    </div> <!-- /footer-main -->
+
+    <!-- Newsletter & Social Platforms -->
+    <div class="footer-social">
+      <div class="row align-items-center">
+        <!-- Newsletter -->
+        <div class="col-lg-6">
+          <div class="newsletter-section">
+            <h5>Stay Inspired</h5>
+            <p>
+              Subscribe to receive design insights and creative inspiration
+              delivered monthly.
+            </p>
+          </div>
+        </div>
+
+        <!-- Social Links -->
+        <div class="col-lg-6">
+          <div class="social-section">
+            <div class="social-links">
+              <a href="#" aria-label="Dribbble" class="social-link">
+                <i class="bi bi-dribbble"></i>
+                <span>Dribbble</span>
+              </a>
+              <a href="#" aria-label="Behance" class="social-link">
+                <i class="bi bi-behance"></i>
+                <span>Behance</span>
+              </a>
+              <a href="#" aria-label="Instagram" class="social-link">
+                <i class="bi bi-instagram"></i>
+                <span>Instagram</span>
+              </a>
+              <a href="#" aria-label="LinkedIn" class="social-link">
+                <i class="bi bi-linkedin"></i>
+                <span>LinkedIn</span>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-
     </div>
- <div class="footer-bottom">
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
       <div class="container">
         <div class="bottom-content">
           <div class="row align-items-center">
             <div class="col-lg-6">
               <div class="copyright">
                 <p>
-                  © <span class="sitename">gianinstitute</span>. All rights
-                  reserved.
+                  © <span class="sitename">gianinstitute</span>. All rights reserved.
                 </p>
               </div>
             </div>
@@ -402,20 +398,18 @@
                 <a href="#">Terms of Service</a>
                 <a href="#">Cookie Policy</a>
                 <div class="credits">
-                  <!-- All the links in the footer should remain intact. -->
-                  <!-- You can delete the links only if you've purchased the pro version. -->
-                  <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                  <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
                   Designed by
                   <a href="https://buildupnet.com/">Buildupnet</a>
                 </div>
               </div>
             </div>
-          </div>
+          </div> <!-- /row -->
         </div>
       </div>
     </div>
-  </footer>
+  </div>
+</footer>
+
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
