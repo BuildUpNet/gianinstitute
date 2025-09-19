@@ -31,14 +31,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'tanyabatra949@gmail.com'; // your email
-        $mail->Password   = 'wvnm axfg jzer ofta';     // your app password
+        $mail->Username   = 'tanyabatra@gmail.com'; // your email
+        $mail->Password   = 'app password';     // your app password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
 
         // ➤ Send to admin
-        $mail->setFrom('tanyabatra949@gmail.com', 'Gian Institute Contact Form');
-        $mail->addAddress('tanyabatra949@gmail.com', 'Gian Admin');
+        $mail->setFrom('tanyabatra@gmail.com', 'Gian Institute Contact Form');
+        $mail->addAddress('tanyabatra@gmail.com', 'Gian Admin');
         $mail->Subject = "New contact form submission: $subject";
         $mail->Body    = $admin_content;
         $mail->isHTML(false);
